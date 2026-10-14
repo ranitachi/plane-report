@@ -1,0 +1,16 @@
+{
+  "name": "plane-laporan-pdf",
+  "version": "1.0.0",
+  "description": "Generate Laporan Tenaga Ahli dari Plane API",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "axios": "^1.13.5",
+    "docx": "^9.5.3",
+    "puppeteer": "^21.0.0",
+    "puppeteer-core": "^24.37.5"
+  }
+}
